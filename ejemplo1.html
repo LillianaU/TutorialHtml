@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Tutorial de HTML</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 40px; padding: 20px; background-color: #f4f4f4; line-height: 1.6; }
+        h1, h2 { color: #333; }
+        pre { background: #eee; padding: 15px; border-radius: 5px; overflow-x: auto; }
+        ul { margin-left: 20px; }
+        li { margin-bottom: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+        table, th, td { border: 1px solid #333; }
+        th, td { padding: 10px; text-align: left; }
+    </style>
+</head>
+<body>
+    <h1>Bienvenido al Tutorial de HTML</h1>
+    <p>HTML (HyperText Markup Language) es el lenguaje estándar para la creación de páginas web.</p>
+    
+    <h2>1. Estructura Básica</h2>
+    <p>Un documento HTML tiene la siguiente estructura básica:</p>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;title&gt;Mi Página&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;Hola, Mundo&lt;/h1&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+    
+    <h2>2. Etiquetas Comunes</h2>
+    <p>Algunas etiquetas esenciales en HTML incluyen:</p>
+    <ul>
+        <li><strong>&lt;p&gt;</strong>: Para párrafos.</li>
+        <li><strong>&lt;a&gt;</strong>: Para enlaces.</li>
+        <li><strong>&lt;img&gt;</strong>: Para imágenes.</li>
+        <li><strong>&lt;ul&gt;</strong> y <strong>&lt;ol&gt;</strong>: Para listas.</li>
+        <li><strong>&lt;table&gt;</strong>: Para tablas.</li>
+        <li><strong>&lt;form&gt;</strong>: Para formularios.</li>
+        <li><strong>&lt;div&gt;</strong> y <strong>&lt;span&gt;</strong>: Para estructurar contenido.</li>
+    </ul>
+    
+    <h2>3. Agregar Enlaces</h2>
+    <p>Para agregar un enlace a otra página:</p>
+    <pre>
+&lt;a href="https://www.ejemplo.com" target="_blank"&gt;Visitar Ejemplo&lt;/a&gt;
+    </pre>
+    
+    <h2>4. Agregar Imágenes</h2>
+    <p>Para agregar una imagen a la página:</p>
+    <pre>
+&lt;img src="imagen.jpg" alt="Descripción de la imagen" width="300"&gt;
+    </pre>
+    
+    <h2>5. Creación de Tablas</h2>
+    <p>Ejemplo de cómo crear una tabla en HTML:</p>
+    <pre>
+&lt;table&gt;
+    &lt;tr&gt;
+        &lt;th&gt;Nombre&lt;/th&gt;
+        &lt;th&gt;Edad&lt;/th&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+        &lt;td&gt;Juan&lt;/td&gt;
+        &lt;td&gt;25&lt;/td&gt;
+    &lt;/tr&gt;
+&lt;/table&gt;
+    </pre>
+    
+    <h2>6. Formularios en HTML</h2>
+    <p>Ejemplo de un formulario simple:</p>
+    <pre>
+&lt;form action="submit.php" method="POST"&gt;
+    &lt;label for="nombre"&gt;Nombre:&lt;/label&gt;
+    &lt;input type="text" id="nombre" name="nombre" required&gt;
+    &lt;input type="submit" value="Enviar"&gt;
+&lt;/form&gt;
+    </pre>
+    
+    <h2>7. Ejercicios de Práctica</h2>
+    <p>Realiza los siguientes ejercicios para reforzar tu conocimiento en HTML:</p>
+    <ol>
+        <li>Crea una página HTML con un encabezado &lt;h1&gt; y un párrafo &lt;p&gt;.</li>
+        <li>Agrega un enlace que lleve a "https://www.google.com".</li>
+        <li>Inserta una imagen con la etiqueta &lt;img&gt; y usa un texto alternativo descriptivo.</li>
+        <li>Crea una lista ordenada (&lt;ol&gt;) con tres elementos.</li>
+        <li>Crea una tabla con tres columnas: Nombre, Edad y Ciudad.</li>
+        <li>Agrega un formulario con un campo de texto y un botón de enviar.</li>
+        <li>Usa &lt;div&gt; para estructurar un contenido con un título y una imagen dentro.</li>
+        <li>Agrega un botón con &lt;button&gt; y un mensaje dentro.</li>
+        <li>Usa la etiqueta &lt;span&gt; para resaltar una palabra dentro de un párrafo.</li>
+        <li>Incluye un comentario en tu código HTML explicando su propósito.</li>
+    </ol>
+</body>
+</html>
